@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    border: 0px solid green;
+    background-color: #ffffff;
+    padding: 15px 0;
+}
+
+
+
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 23%;
+ 
+    padding-left: 8%;
+
+}
+
+.img-logo{
+    border: solid 0px #42515f;
+   
+}
+
+.emp-text{
+    font:normal normal bold 20px/20px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing:0.2px;
+    color:#82a70c;
+    text-transform: capitalize;
+
+}
+
+.emp-payroll{
+    color: #42515f;
+}
+*{box-sizing: border-box;} 
+.main-content{
+    background-color: #d5d6d0;
+    
+    height: 80%;
+// min-height: calc(100%-80px);
+text-align: center;
+border: 2px solid #82a70c;
+}
+h3{ 
+    font:normal normal bold 20px/20px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing:0.2px;
+    color: #42515f;
+    text-transform: capitalize;
+}
+
+button{
+    font-size: 2Qpx;
+    font-family: Roboto;
+    letter-spacing: Qpx;
+    color: M#42515f;
+    opacity: 1;
+    background: #c7c9ca;
+    border: none;
+    font-weight: 400;
+    min-width: 140px;
+    padding: 7px 7px;
+    margin-top: 15px ;
+    margin-left: 10px;
+    /* border: 1px solid Ml#707070; */
+    border-radius: 6px;
+    cursor: pointer;
+    // margin: 10px;
+}
+
+.main-content{
+    min-height: calc(100%-80px);
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    /* align-items:stretch; */
+    border: 0px solid green;
+}
